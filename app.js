@@ -1,9 +1,9 @@
 requirejs.config({
 	paths : {
-		esri: '//jsdev.arcgis.com/3.9/js/esri',
-		dojo : '//jsdev.arcgis.com/3.9/js/dojo/dojo',
-		dijit : '//jsdev.arcgis.com/3.9/js/dojo/dijit',
-		dojox : '//jsdev.arcgis.com/3.9/js/dojo/dojox'
+		esri: '//js.arcgis.com/3.9/js/esri',
+		dojo : '//js.arcgis.com/3.9/js/dojo/dojo',
+		dijit : '//js.arcgis.com/3.9/js/dojo/dijit',
+		dojox : '//js.arcgis.com/3.9/js/dojo/dojox'
 	},
 	baseUrl : "scripts/helpers",
 	shim : {}
@@ -11,4 +11,4 @@ requirejs.config({
 
 
 // Load the main app module to start the app
-requirejs(['arcgis-gears' ]);
+requirejs(['arcgis-gears']);
